@@ -14,7 +14,10 @@ As currently set up it an take live snapshots of the sensor at a selectable spee
 
 And all the data is presented in a graph on your web browser, plus the data is printed in the browser in a format that you can cut-and-paste into Excel for any fancy formatting or analysis.
 
+<img src="./screen.jpg">
+
 Here is an example of the minute data with the text version at the bottom.  The date/time is converted into Excel format for easy formatting in Excel.
+
 <img src="./minutes.jpg">
 
 Sample of 1/10 seconds live data - the graph starts empty and grows to 100 samples, then it starts rolling the last 100 samples.
