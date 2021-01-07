@@ -5,7 +5,7 @@ Here is a very simple data logger project for a WeMos d1 mini 8266 processor and
 This sort of project could use a local SD card, or a Raspberry Pi database or a Cloud IOT database somewhere in the world, but this version just stores the data in the memory of the 8266, and occasionally writes it to the flash on the 8266 in case of power faiilure or unplugging the device.  None of the data leaves your house, and you do not need to sign up with a free/paid IOT database and then try to get your data back in a nice format ... or worry about internet traffic, security, etc.
 
 As currently set up it an take live snapshots of the sensor at a selectable speed down to 1/10 seconds, plus regular snapshorts:
-- 100 live samples 1/10 second to 2 seconds
+- 100 live samples 1/10 second to 3 seconds
 - 180 1-second samples (3 minutes)
 - 180 1-minute samples (3 hours)
 - 288 5-minute samples (24 hours)
