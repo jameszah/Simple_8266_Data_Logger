@@ -30,4 +30,9 @@ Here is an example of the hours screen, plus the same data copied off the webpag
 
 <img src="./excel.jpg">
 
-Based on this demo from Acrobatic:  https://github.com/acrobotic/Ai_Demos_ESP8266/tree/master/bmp180_gui
+The BME280 connected to the i2c pins at D1 and D2 (gpio5 scl and gpio4 sda).  You can swap sensors or add another sensor with a few lines of code.  
+The DS18b20 is not ideal because it takes almost a second to read, and I was going to 1/10 second updates, but if you are interested in seconds, minutes, and days, then it works fine.
+
+Based on this demo from Acrobatic: 
+https://acrobotic.com/ 
+https://github.com/acrobotic/Ai_Demos_ESP8266/tree/master/bmp180_gui
