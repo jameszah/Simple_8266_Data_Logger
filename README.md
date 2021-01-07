@@ -6,8 +6,8 @@ This sort of project could use a local SD card, or a Raspberry Pi database or a 
 
 As currently set up it an take live snapshots of the sensor at a selectable speed down to 1/10 seconds, plus regular snapshorts:
 - 100 live samples 1/10 second to 2 seconds
-- 180 1-seconds samples (3 minutes)
-- 180 1-minutes samples (3 hours)
+- 180 1-second samples (3 minutes)
+- 180 1-minute samples (3 hours)
 - 288 5-minute samples (24 hours)
 - 240 1-hour avaerages (10 days)
 - 180 1-day averages (6 months)
