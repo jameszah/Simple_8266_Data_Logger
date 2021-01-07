@@ -12,12 +12,18 @@ As currently set up it an take live snapshots of the sensor at a selectable spee
 - 240 1-hour avaerages (10 days)
 - 180 1-day averages (6 months)
 
+And all the data is presented in a graph on your web browser, plus the data is printed in the browser in a format that you can cut-and-paste into Excel for any fancy formatting or analysis.
 
-
+Here is an example of the minute data with the text version at the bottom.  The date/time is converted into Excel format for easy formatting in Excel.
 <img src="./minutes.jpg">
+
+Excel of 1/10 seconds live data - the graph starts empty and grows to 100 samples, then it starts rolling the last 100 samples.
 
 <img src="./live.jpg">
 
+Here is an example of the hours screen, plus the same data copied off the webpage and pasted into Excel, and then built into an Excel grapph.
+
 <img src="./hours.jpg">
+
 
 <img src="./excel.jpg">
