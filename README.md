@@ -28,5 +28,6 @@ Here is an example of the hours screen, plus the same data copied off the webpag
 
 <img src="./hours.jpg">
 
-
 <img src="./excel.jpg">
+
+Based on this demo from Acrobatic:  https://github.com/acrobotic/Ai_Demos_ESP8266/tree/master/bmp180_gui
