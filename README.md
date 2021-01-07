@@ -14,6 +14,8 @@ As currently set up it an take live snapshots of the sensor at a selectable spee
 
 And all the data is presented in a graph on your web browser, plus the data is printed in the browser in a format that you can cut-and-paste into Excel for any fancy formatting or analysis.
 
+It uses WiFiManager to set the wifi name and password, so unless you are changing the sensor, or the data retention intervals, you can just download it as is.  https://github.com/tzapu/WiFiManager
+
 <img src="./screen.jpg">
 
 Here is an example of the minute data with the text version at the bottom.  The date/time is converted into Excel format for easy formatting in Excel.
