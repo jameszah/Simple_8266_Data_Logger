@@ -16,6 +16,12 @@ And all the data is presented in a graph on your web browser, plus the data is p
 
 It uses WiFiManager to set the wifi name and password, so unless you are changing the sensor, or the data retention intervals, you can just download it as is.  https://github.com/tzapu/WiFiManager
 
+Update Jan 21, 2021 -- Added an archive to save the 5 Minute samples, and a file manager to download the archive to your pc.  The file manager also allows you to move the data to another 8266, or change the flash size of the 8266 and reload some old data.  The file manager comes from https://github.com/holgerlembke/ESPxWebFlMgr and is included here for simplicity as I cannot find it in the normal Arduino Manage Libraries yet.
+
+The file manager screen.  The 5mArchive.txt file will conatin the 5 minute snapshots and is extended everyday from the 24 hours of 5 minute snapshots file.  The 2 MB LittleFS that on the WeMos d1 Mini will give you about 6 months of 5 Minute data before it runs out of space.  The file is a simple text file with the times in GMT Unixtime format.  Use this equation to convert unixtime to exceltime in a spreadsheet =25569 + E2/ 86400, where E2 has the unixtime.  The graph function only allows you to see the last 24 hours of 5 minute snapshots.
+
+<img src="./download.jpg">
+
 <img src="./screen.jpg">
 
 Here is an example of the minute data with the text version at the bottom.  The date/time is converted into Excel format for easy formatting in Excel.
