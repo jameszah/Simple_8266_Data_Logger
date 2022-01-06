@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages Simple_8266_Data_Logger
 
 You can use the [editor on GitHub](https://github.com/jameszah/Simple_8266_Data_Logger/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
